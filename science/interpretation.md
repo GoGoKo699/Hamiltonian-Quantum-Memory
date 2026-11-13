@@ -7,7 +7,7 @@ The [main theorem](memory_law.md) determines the smallest hidden quantum carrier
 | Part | Operational role | Required simulator storage |
 | --- | --- | --- |
 | Sector label j | A conserved label selecting conditional dynamics | Classical storage |
-| Active factor R_j | Can receive and later return arbitrary quantum information through port controls | Coherent storage of dimension r_j |
+| Active factor Q_j | Can receive and later return arbitrary quantum information through port controls | Coherent storage of dimension r_j |
 | Invisible multiplicity B_j | Its evolution cannot influence future port experiments | Can be traced out |
 
 This decomposition and its controllability properties come from earlier quantum-control theory. General quantum/classical/irrelevant decompositions and quantum-memory cost with free classical records also have established antecedents. The contribution here is the sharp weighted uniform process-error law and its repeated operational witness. See [related work](../references/related_work.md).

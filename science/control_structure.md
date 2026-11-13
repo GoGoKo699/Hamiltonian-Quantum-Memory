@@ -9,7 +9,7 @@ The bath decomposition in this project is inherited from Kato, Owari and Maruyam
 Order the physical Hilbert space as $`E\otimes\bar S`$, with $`d=\dim\bar S\ge3`$. Let
 
 ```math
-\mathfrak L=\operatorname{Lie}_{\mathbb R}
+\mathfrak L=\mathrm{Lie}_{\mathbb R}
  \left(iH_{E\bar S},\ I_E\otimes\mathfrak{su}(d)\right),
 ```
 
@@ -55,12 +55,12 @@ Scalar phases can be allocated between the terms without changing the process. T
 
 ```math
 \tau_{Q_j}
-=p_j^{-1}\operatorname{Tr}_{B_j}(\Pi_j\tau_E\Pi_j)
+=p_j^{-1}\mathrm{Tr}_{B_j}(\Pi_j\tau_E\Pi_j)
 ```
 
 when $`p_j>0`$, and evolve $`Q_j\bar S`$ with $`K_j`$. Tracing out $`B_j`$ at the beginning is valid even if it is initially correlated with $`Q_j`$: its subsequent unitary acts on $`B_j`$ alone. Off-diagonal $`j`$ blocks never contribute after the final bath trace. This proves the exact simulator used in the upper bound.
 
-The stabilization qubit remains an actual laboratory system, not an extra simulator port. To see this explicitly, when $`\bar S=S\otimes Z`$ the physical drift is $`H_{ES}\otimes I_Z`$. Set $`\widehat K_j=(\dim Z)^{-1}\operatorname{Tr}_ZK_j`$. Taking that normalized partial trace in the drift decomposition, tensoring back with $`I_Z`$, and subtracting the original equality gives
+The stabilization qubit remains an actual laboratory system, not an extra simulator port. To see this explicitly, when $`\bar S=S\otimes Z`$ the physical drift is $`H_{ES}\otimes I_Z`$. Set $`\widehat K_j=(\dim Z)^{-1}\mathrm{Tr}_ZK_j`$. Taking that normalized partial trace in the drift decomposition, tensoring back with $`I_Z`$, and subtracting the original equality gives
 
 ```math
 K_j=\widehat K_j\otimes I_Z.
@@ -94,7 +94,7 @@ No bath measurement is supplied for free. This is an indirect operation compiled
 On a known sector $`j`$, append an $`r_j`$-dimensional payload $`L`$. Independent full connected control on $`Q_j\bar SL`$ supplies
 
 ```math
-W_j=\operatorname{SWAP}_{Q_j,L}\otimes I_{\bar S},
+W_j=\mathrm{SWAP}_{Q_j,L}\otimes I_{\bar S},
 ```
 
 again up to an irrelevant phase and arbitrarily small finite compilation error. Controls on other sectors may be chosen arbitrarily. If a common fixed laboratory dimension is desired, embed each payload in an $`r_j`$-dimensional subspace of a register of dimension $`\max_jr_j`$ and extend the indicated SWAP unitarily on its complement.

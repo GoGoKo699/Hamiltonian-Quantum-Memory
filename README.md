@@ -10,7 +10,7 @@ Use the established stabilized control decomposition
 
 ```math
 \mathcal H_E=\bigoplus_j\mathcal H_{B_j}\otimes\mathcal H_{Q_j},
-\qquad r_j=\dim Q_j,\qquad p_j=\operatorname{Tr}(\Pi_j\tau_E).
+\qquad r_j=\dim Q_j,\qquad p_j=\mathrm{Tr}(\Pi_j\tau_E).
 ```
 
 Here j is a conserved sector, its Q factor is controllable through the laboratory port, and its B factor is invisible to future port experiments. This structure is inherited from Kato–Owari–Maruyama; the quantum/classical decomposition and general memory-cost frameworks also have established antecedents. The [related-work account](references/related_work.md) identifies them.
@@ -26,7 +26,7 @@ The error uses half operational distance and is uniform over arbitrarily long **
 
 | Consequence | Meaning |
 | --- | --- |
-| Exact tail of sector probabilities | Small quantum sectors may be omitted at their total probability cost; a smaller coherent carrier cannot improve the unrestricted-time error. |
+| Exact tail of sector probabilities | Omitted sectors cost their total probability; a smaller coherent carrier cannot improve the unrestricted-time error. |
 | Exact classical-memory boundary | Classical persistent memory suffices precisely when every occupied active factor is one-dimensional, even allowing invasive classical feedforward. |
 | Finite repeated witness | A sector flag followed by store–reset–retrieve Bell tests gives a lower bound approaching the tail, against every dimension-limited emulator. |
 | Finite-horizon limit | The optimal horizon-specific error tends to the same tail as duration grows; no universal convergence rate is claimed. |
@@ -57,6 +57,12 @@ python3 verification/check_science.py --output verification/results.json
 ```
 
 The [verification guide](verification/README.md) states the actual matrix calculations and their limits. The all-size theorem rests on the analytical proof and its imported control theorem, rather than finite tests.
+
+## Learn the mechanism
+
+The single educational anchor is **John Watrous, *The Theory of Quantum Information* (2018)**, using the January 2018 standard-layout author manuscript. The [Watrous bridge](learning/WATROUS_BRIDGE.md) connects its channel, distance and entanglement foundations to the control theorem and repeated-memory argument, with conventions translated explicitly.
+
+The [worked storage experiment](learning/WORKED_EXAMPLE.md) follows a Bell pair through an exact SWAP, full port reset, retrieval and measurement, then adds repetition and a rare quantum sector. The [30-milestone map](learning/MILESTONES.md) develops twelve background and eighteen narrative understanding targets in one connected route. Start with the [learning guide](learning/README.md), or use the specialist science route above.
 
 ## Scope
 

@@ -37,7 +37,7 @@ Here $`B_j`$ is an invisible multiplicity factor, $`Q_j`$ is an indirectly contr
 Let $`\Pi_j`$ project onto sector $`j`$, and define
 
 ```math
-p_j=\operatorname{Tr}(\Pi_j\tau_E),\qquad
+p_j=\mathrm{Tr}(\Pi_j\tau_E),\qquad
 q_D=\sum_{j:r_j>D}p_j,\qquad D\in\mathbb N,\ D\ge1.
 ```
 
@@ -60,7 +60,7 @@ A tester $`\mathsf T`$ specifies a finite causal laboratory experiment and a fin
 ```math
 d_\infty(P_{H,\tau},\mathsf M)
 =\sup_{\mathsf T\ \mathrm{finite}}
- \operatorname{TV}\!\left(
+ \mathrm{TV}\!\left(
  p_{\mathsf T[P_{H,\tau}]},p_{\mathsf T[\mathsf M]}\right),
 ```
 

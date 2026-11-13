@@ -29,7 +29,7 @@ Even an initially pure state in the four-level factor still requires four levels
 Let the accessible port be a qutrit and the bath one qubit. In units with the longitudinal coupling equal to one, set
 
 ```math
-C=\operatorname{diag}(-1,0,1),\qquad
+C=\mathrm{diag}(-1,0,1),\qquad
 H_g=C\otimes Z+g I_3\otimes X,
 ```
 
@@ -39,7 +39,7 @@ where the first tensor factor is the port. Every port Hamiltonian is controllabl
 
 At zero transverse term the two eigenspaces of bath Z are invariant. Conditional on its eigenvalue, the port evolves under C or minus C. Thus one classical bit is an exact hidden memory for every controlled experiment.
 
-The connected Lie algebra has dimension 16 and is the direct sum of two copies of su(3). To see this, port controls supply su(3) tensored with the bath identity; the nonzero traceless C and the simplicity of su(3) give su(3) tensored with Z. Their commutators close within these two spaces. Both active factors have dimension one.
+The connected Lie algebra has dimension 16 and is the direct sum of two copies of su(3). To see this, port controls supply su(3) tensored with the bath identity; the nonzero traceless C and the simplicity of su(3) give su(3) tensored with Z. Their commutators close within these two spaces. Both controllable-factor spaces have dimension one; only sectors of nonzero initial weight are occupied.
 
 ### Any nonzero transverse term
 
