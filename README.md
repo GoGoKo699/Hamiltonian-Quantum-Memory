@@ -26,7 +26,7 @@ The error uses half operational distance and is uniform over arbitrarily long **
 
 | Consequence | Meaning |
 | --- | --- |
-| Exact tail of sector probabilities | Small quantum sectors may be omitted at their total probability cost; a smaller coherent carrier cannot improve the unrestricted-time error. |
+| Exact tail of sector probabilities | Omitted sectors cost their total probability; a smaller coherent carrier cannot improve the unrestricted-time error. |
 | Exact classical-memory boundary | Classical persistent memory suffices precisely when every occupied active factor is one-dimensional, even allowing invasive classical feedforward. |
 | Finite repeated witness | A sector flag followed by store–reset–retrieve Bell tests gives a lower bound approaching the tail, against every dimension-limited emulator. |
 | Finite-horizon limit | The optimal horizon-specific error tends to the same tail as duration grows; no universal convergence rate is claimed. |
