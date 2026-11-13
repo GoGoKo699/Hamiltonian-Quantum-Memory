@@ -14,6 +14,12 @@ This repository gives an exact hard quantum-memory versus uniform process-error 
 - science/examples.md: weighted staircase; exact qutrit–qubit Lie spanning; finite-time Duhamel bound and order of weak-coupling/long-time limits.
 - science/interpretation.md: what counts as persistent quantum memory, what is free, and which physical consequences do not follow.
 
+## Learning
+- learning/README.md: selected Watrous2018 route, exact source identity and story.
+- learning/WATROUS_BRIDGE.md: verified textbook sections, norm/fidelity/Choi conventions and explicitly supplied research dependencies.
+- learning/WORKED_EXAMPLE.md: complete SWAP–reset–retrieve experiment, sealed reference, classical ceiling, adaptive repetition, rare-sector and finite compilation-error qualification.
+- learning/MILESTONES.md: exactly M01–M30, twelve background and eighteen narrative project-intrinsic understanding targets, each progressing from local ingredients to synthesis.
+
 ## Attribution and reproduction
 - references/related_work.md: inherited control/compression/comb/Schmidt-number ingredients and specific operational addition.
 - references/references.bib: primary bibliographic identities and exact versions.

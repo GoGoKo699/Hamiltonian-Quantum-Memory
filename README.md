@@ -58,6 +58,12 @@ python3 verification/check_science.py --output verification/results.json
 
 The [verification guide](verification/README.md) states the actual matrix calculations and their limits. The all-size theorem rests on the analytical proof and its imported control theorem, rather than finite tests.
 
+## Learn the mechanism
+
+The single educational anchor is **John Watrous, *The Theory of Quantum Information* (2018)**, using the January 2018 standard-layout author manuscript. The [Watrous bridge](learning/WATROUS_BRIDGE.md) connects its channel, distance and entanglement foundations to the control theorem and repeated-memory argument, with conventions translated explicitly.
+
+The [worked storage experiment](learning/WORKED_EXAMPLE.md) follows a Bell pair through an exact SWAP, full port reset, retrieval and measurement, then adds repetition and a rare quantum sector. The [30-milestone map](learning/MILESTONES.md) develops twelve background and eighteen narrative understanding targets in one connected route. Start with the [learning guide](learning/README.md), or use the specialist science route above.
+
 ## Scope
 
 The theorem permits ideal local operations, exact resets, unrestricted finite laboratory ancillas and arbitrarily accurate control synthesis. A qubit port may be stabilized by one controllable laboratory qubit; that helper is erased at the memory cuts and is never an extra emulator port. All hidden persistent quantum systems count jointly toward the hard cap. No preshared entanglement or uncounted quantum side channel is supplied to an emulator.

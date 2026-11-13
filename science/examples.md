@@ -39,7 +39,7 @@ where the first tensor factor is the port. Every port Hamiltonian is controllabl
 
 At zero transverse term the two eigenspaces of bath Z are invariant. Conditional on its eigenvalue, the port evolves under C or minus C. Thus one classical bit is an exact hidden memory for every controlled experiment.
 
-The connected Lie algebra has dimension 16 and is the direct sum of two copies of su(3). To see this, port controls supply su(3) tensored with the bath identity; the nonzero traceless C and the simplicity of su(3) give su(3) tensored with Z. Their commutators close within these two spaces. Both active factors have dimension one.
+The connected Lie algebra has dimension 16 and is the direct sum of two copies of su(3). To see this, port controls supply su(3) tensored with the bath identity; the nonzero traceless C and the simplicity of su(3) give su(3) tensored with Z. Their commutators close within these two spaces. Both controllable-factor spaces have dimension one; only sectors of nonzero initial weight are occupied.
 
 ### Any nonzero transverse term
 

@@ -17,6 +17,7 @@ The [examples](examples.md) give a weighted memory staircase and a fully control
 | Follow the mechanism | Model → control structure → memory law → classical boundary → examples → interpretation |
 | Check the theorem | Model’s quantifiers, control theorem transfer, one-round Schmidt-number lemma, repeated finite tester, approximation and horizon limit |
 | Inspect attribution | [Primary comparisons](../references/related_work.md) and [bibliography](../references/references.bib) |
+| Learn from the selected textbook | [Watrous route and worked example](../learning/README.md) |
 | Reproduce finite examples | [Verification](../verification/README.md) |
 
 The sharp tail law is the project’s operational addition. The algebraic classification, classical/quantum/irrelevant distinction, classical-assisted memory convention and Bell-overlap inequality are credited to their prior sources.
