@@ -1,0 +1,24 @@
+# Hamiltonian Quantum Memory
+
+This repository gives an exact hard quantum-memory versus uniform process-error law for a finite static Hamiltonian bath under complete ancilla-assisted laboratory control. It concerns physical quantum-port emulation preserving arbitrary reference correlations, not classical numerical calculation of probabilities.
+
+## Start and scope
+- README.md: question, principal result, scope and reproduction.
+- science/README.md: connected reading route and scientific mechanism.
+- science/model.md: known finite H and initial bath state; actual port and ancillas; hard hidden dimension cap with unlimited classical memory; half operational distance; compatible all-time and horizon-specific emulators.
+
+## Proof routes
+- science/control_structure.md: imported Kato–Owari–Maruyama Theorems1–2/5; stabilized factors; simulator acts on originalS only; control closure; sector flag and payload SWAP.
+- science/memory_law.md: exact probability tail; low-sector upper; Schmidt-number Bell-overlap lemma; conditional repeated-test converse; total finite compilation error and horizon limit.
+- science/classical_boundary.md: exact classical-feedforward boundary, active sectors, faithful-state and universal-state qualifiers; common cause versus general classical memory.
+- science/examples.md: weighted staircase; exact qutrit–qubit Lie spanning; finite-time Duhamel bound and order of weak-coupling/long-time limits.
+- science/interpretation.md: what counts as persistent quantum memory, what is free, and which physical consequences do not follow.
+
+## Attribution and reproduction
+- references/related_work.md: inherited control/compression/comb/Schmidt-number ingredients and specific operational addition.
+- references/references.bib: primary bibliographic identities and exact versions.
+- verification/README.md: actual finite checks and verification limits.
+- verification/check_science.py: reproducible matrix calculations.
+- verification/results.json: recorded results from the documented run.
+
+Keep the unlimited-time qualification, hard branchwise memory cap, original quantum port, sealed references and full resets together when summarizing the theorem. Finite verification and repository integration do not establish literature priority or journal acceptance.
