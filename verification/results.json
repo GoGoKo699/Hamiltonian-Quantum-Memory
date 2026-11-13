@@ -1,0 +1,528 @@
+{
+  "generated_at_utc": "2026-11-13T11:20:25.021265+00:00",
+  "random_seed": 20261113,
+  "tolerance": 2e-10,
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0"
+  },
+  "status": "passed",
+  "checks": {
+    "storage_cut": {
+      "cases": [
+        {
+          "payload_dimension": 2,
+          "invisible_dimension": 2,
+          "initial_BQ_rank": 1,
+          "quantum_bell_pass": 0.9999999999999993,
+          "quantum_half_trace_error": 1.1102230246251565e-16,
+          "dephased_bell_pass": 0.49999999999999967,
+          "dephased_half_trace_error": 0.4999999999999999
+        },
+        {
+          "payload_dimension": 2,
+          "invisible_dimension": 2,
+          "initial_BQ_rank": 4,
+          "quantum_bell_pass": 0.9999999999999996,
+          "quantum_half_trace_error": 0.0,
+          "dephased_bell_pass": 0.4999999999999998,
+          "dephased_half_trace_error": 0.4999999999999999
+        },
+        {
+          "payload_dimension": 3,
+          "invisible_dimension": 2,
+          "initial_BQ_rank": 1,
+          "quantum_bell_pass": 1.0000000000000007,
+          "quantum_half_trace_error": 0.0,
+          "dephased_bell_pass": 0.33333333333333354,
+          "dephased_half_trace_error": 0.6666666666666669
+        },
+        {
+          "payload_dimension": 3,
+          "invisible_dimension": 2,
+          "initial_BQ_rank": 6,
+          "quantum_bell_pass": 1.0000000000000004,
+          "quantum_half_trace_error": 8.326672684688675e-17,
+          "dephased_bell_pass": 0.3333333333333335,
+          "dephased_half_trace_error": 0.6666666666666667
+        },
+        {
+          "payload_dimension": 4,
+          "invisible_dimension": 2,
+          "initial_BQ_rank": 1,
+          "quantum_bell_pass": 1.0,
+          "quantum_half_trace_error": 0.0,
+          "dephased_bell_pass": 0.25,
+          "dephased_half_trace_error": 0.75
+        },
+        {
+          "payload_dimension": 4,
+          "invisible_dimension": 2,
+          "initial_BQ_rank": 8,
+          "quantum_bell_pass": 0.9999999999999999,
+          "quantum_half_trace_error": 5.551115123125784e-17,
+          "dephased_bell_pass": 0.24999999999999997,
+          "dephased_half_trace_error": 0.75
+        }
+      ],
+      "two_round_classical_pass": 0.24999999999999978,
+      "scope": "Ideal effective SWAPs and exact resets; no Hamiltonian pulse synthesis is tested."
+    },
+    "dimension_bound": {
+      "cases": [
+        {
+          "payload_dimension": 2,
+          "memory_dimension": 1,
+          "random_decoded_bell_pass": 0.10512946289526233,
+          "bound": 0.5,
+          "pure_rank_D_saturation": 0.4999999999999999,
+          "physical_block_channel_pass": 0.4999999999999998,
+          "classical_branch_probabilities": [
+            0.4999999999999999,
+            0.4999999999999999
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 2,
+          "memory_dimension": 2,
+          "random_decoded_bell_pass": 0.11184843878810044,
+          "bound": 1.0,
+          "pure_rank_D_saturation": 1.0,
+          "physical_block_channel_pass": 0.9999999999999996,
+          "classical_branch_probabilities": [
+            0.9999999999999998
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 3,
+          "memory_dimension": 1,
+          "random_decoded_bell_pass": 0.143081715068697,
+          "bound": 0.3333333333333333,
+          "pure_rank_D_saturation": 0.3333333333333334,
+          "physical_block_channel_pass": 0.33333333333333354,
+          "classical_branch_probabilities": [
+            0.3333333333333334,
+            0.3333333333333334,
+            0.3333333333333334
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 3,
+          "memory_dimension": 2,
+          "random_decoded_bell_pass": 0.035458553996846165,
+          "bound": 0.6666666666666666,
+          "pure_rank_D_saturation": 0.666666666666667,
+          "physical_block_channel_pass": 0.5555555555555559,
+          "classical_branch_probabilities": [
+            0.6666666666666669,
+            0.3333333333333334
+          ],
+          "physical_channel_saturates": false
+        },
+        {
+          "payload_dimension": 3,
+          "memory_dimension": 3,
+          "random_decoded_bell_pass": 0.20516183496728888,
+          "bound": 1.0,
+          "pure_rank_D_saturation": 1.0000000000000007,
+          "physical_block_channel_pass": 1.0000000000000007,
+          "classical_branch_probabilities": [
+            1.0000000000000002
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 4,
+          "memory_dimension": 1,
+          "random_decoded_bell_pass": 0.10263266652324789,
+          "bound": 0.25,
+          "pure_rank_D_saturation": 0.25,
+          "physical_block_channel_pass": 0.25,
+          "classical_branch_probabilities": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 4,
+          "memory_dimension": 2,
+          "random_decoded_bell_pass": 0.07756598108982544,
+          "bound": 0.5,
+          "pure_rank_D_saturation": 0.5000000000000001,
+          "physical_block_channel_pass": 0.5,
+          "classical_branch_probabilities": [
+            0.5,
+            0.5
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 4,
+          "memory_dimension": 3,
+          "random_decoded_bell_pass": 0.040476096356364843,
+          "bound": 0.75,
+          "pure_rank_D_saturation": 0.7500000000000002,
+          "physical_block_channel_pass": 0.625,
+          "classical_branch_probabilities": [
+            0.75,
+            0.25
+          ],
+          "physical_channel_saturates": false
+        },
+        {
+          "payload_dimension": 4,
+          "memory_dimension": 4,
+          "random_decoded_bell_pass": 0.07172992185363014,
+          "bound": 1.0,
+          "pure_rank_D_saturation": 1.0,
+          "physical_block_channel_pass": 1.0,
+          "classical_branch_probabilities": [
+            1.0
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 5,
+          "memory_dimension": 1,
+          "random_decoded_bell_pass": 0.005035292974508947,
+          "bound": 0.2,
+          "pure_rank_D_saturation": 0.19999999999999998,
+          "physical_block_channel_pass": 0.19999999999999996,
+          "classical_branch_probabilities": [
+            0.19999999999999998,
+            0.19999999999999998,
+            0.19999999999999998,
+            0.19999999999999998,
+            0.19999999999999998
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 5,
+          "memory_dimension": 2,
+          "random_decoded_bell_pass": 0.056153613394417864,
+          "bound": 0.4,
+          "pure_rank_D_saturation": 0.4000000000000001,
+          "physical_block_channel_pass": 0.35999999999999993,
+          "classical_branch_probabilities": [
+            0.39999999999999997,
+            0.39999999999999997,
+            0.19999999999999998
+          ],
+          "physical_channel_saturates": false
+        },
+        {
+          "payload_dimension": 5,
+          "memory_dimension": 3,
+          "random_decoded_bell_pass": 0.03645998166655255,
+          "bound": 0.6,
+          "pure_rank_D_saturation": 0.6000000000000001,
+          "physical_block_channel_pass": 0.5199999999999999,
+          "classical_branch_probabilities": [
+            0.6,
+            0.39999999999999997
+          ],
+          "physical_channel_saturates": false
+        },
+        {
+          "payload_dimension": 5,
+          "memory_dimension": 4,
+          "random_decoded_bell_pass": 0.09390029058709369,
+          "bound": 0.8,
+          "pure_rank_D_saturation": 0.7999999999999999,
+          "physical_block_channel_pass": 0.6799999999999999,
+          "classical_branch_probabilities": [
+            0.7999999999999999,
+            0.19999999999999998
+          ],
+          "physical_channel_saturates": false
+        },
+        {
+          "payload_dimension": 5,
+          "memory_dimension": 5,
+          "random_decoded_bell_pass": 0.07244518565690591,
+          "bound": 1.0,
+          "pure_rank_D_saturation": 1.0000000000000004,
+          "physical_block_channel_pass": 0.9999999999999998,
+          "classical_branch_probabilities": [
+            0.9999999999999999
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 6,
+          "memory_dimension": 1,
+          "random_decoded_bell_pass": 0.016228079515639253,
+          "bound": 0.16666666666666666,
+          "pure_rank_D_saturation": 0.1666666666666667,
+          "physical_block_channel_pass": 0.16666666666666677,
+          "classical_branch_probabilities": [
+            0.1666666666666667,
+            0.1666666666666667,
+            0.1666666666666667,
+            0.1666666666666667,
+            0.1666666666666667,
+            0.1666666666666667
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 6,
+          "memory_dimension": 2,
+          "random_decoded_bell_pass": 0.012810038408780304,
+          "bound": 0.3333333333333333,
+          "pure_rank_D_saturation": 0.3333333333333335,
+          "physical_block_channel_pass": 0.33333333333333354,
+          "classical_branch_probabilities": [
+            0.3333333333333334,
+            0.3333333333333334,
+            0.3333333333333334
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 6,
+          "memory_dimension": 3,
+          "random_decoded_bell_pass": 0.029009995531215194,
+          "bound": 0.5,
+          "pure_rank_D_saturation": 0.5000000000000003,
+          "physical_block_channel_pass": 0.5000000000000003,
+          "classical_branch_probabilities": [
+            0.5000000000000001,
+            0.5000000000000001
+          ],
+          "physical_channel_saturates": true
+        },
+        {
+          "payload_dimension": 6,
+          "memory_dimension": 4,
+          "random_decoded_bell_pass": 0.039678236900033505,
+          "bound": 0.6666666666666666,
+          "pure_rank_D_saturation": 0.6666666666666669,
+          "physical_block_channel_pass": 0.5555555555555559,
+          "classical_branch_probabilities": [
+            0.6666666666666669,
+            0.3333333333333334
+          ],
+          "physical_channel_saturates": false
+        },
+        {
+          "payload_dimension": 6,
+          "memory_dimension": 5,
+          "random_decoded_bell_pass": 0.04357091378682188,
+          "bound": 0.8333333333333334,
+          "pure_rank_D_saturation": 0.8333333333333334,
+          "physical_block_channel_pass": 0.7222222222222228,
+          "classical_branch_probabilities": [
+            0.8333333333333335,
+            0.1666666666666667
+          ],
+          "physical_channel_saturates": false
+        },
+        {
+          "payload_dimension": 6,
+          "memory_dimension": 6,
+          "random_decoded_bell_pass": 0.031642695125393396,
+          "bound": 1.0,
+          "pure_rank_D_saturation": 1.0000000000000007,
+          "physical_block_channel_pass": 1.0000000000000007,
+          "classical_branch_probabilities": [
+            1.0000000000000002
+          ],
+          "physical_channel_saturates": true
+        }
+      ],
+      "smallest_random_case_margin": 0.14736733347675213,
+      "scope": "Finite matrix witnesses for Schmidt-number/Bell overlap; no arbitrary-channel optimization or general converse is inferred."
+    },
+    "exact_lie_closure": {
+      "cases": [
+        {
+          "g": "0",
+          "dimension": 16,
+          "brackets_examined": 235,
+          "certificate": "Exact rational bracket closure exhausted; no floating rank threshold used."
+        },
+        {
+          "g": "1",
+          "dimension": 35,
+          "brackets_examined": 372,
+          "certificate": "35 exact rational independent traceless Hermitian matrices span su(6)."
+        },
+        {
+          "g": "1/3",
+          "dimension": 35,
+          "brackets_examined": 372,
+          "certificate": "35 exact rational independent traceless Hermitian matrices span su(6)."
+        }
+      ],
+      "scope": "Exact closure at g=0,1,1/3 only; the all-nonzero-g assertion uses the analytical spanning proof."
+    },
+    "finite_time_perturbation": {
+      "cases": [
+        {
+          "g": 0.01,
+          "hard_horizon": 0.2,
+          "initial_bath_rank": 1,
+          "flagged_half_trace_distance": 0.00016170481430781517,
+          "duhamel_bound": 0.002
+        },
+        {
+          "g": 0.01,
+          "hard_horizon": 1.0,
+          "initial_bath_rank": 1,
+          "flagged_half_trace_distance": 0.003510787682861573,
+          "duhamel_bound": 0.01
+        },
+        {
+          "g": 0.01,
+          "hard_horizon": 3.0,
+          "initial_bath_rank": 1,
+          "flagged_half_trace_distance": 0.011611621372146183,
+          "duhamel_bound": 0.03
+        },
+        {
+          "g": 0.1,
+          "hard_horizon": 0.2,
+          "initial_bath_rank": 1,
+          "flagged_half_trace_distance": 0.0016180650321620496,
+          "duhamel_bound": 0.020000000000000004
+        },
+        {
+          "g": 0.1,
+          "hard_horizon": 1.0,
+          "initial_bath_rank": 1,
+          "flagged_half_trace_distance": 0.035143985095652065,
+          "duhamel_bound": 0.1
+        },
+        {
+          "g": 0.1,
+          "hard_horizon": 3.0,
+          "initial_bath_rank": 1,
+          "flagged_half_trace_distance": 0.11596425027794771,
+          "duhamel_bound": 0.30000000000000004
+        },
+        {
+          "g": 0.4,
+          "hard_horizon": 0.2,
+          "initial_bath_rank": 1,
+          "flagged_half_trace_distance": 0.006477830582877889,
+          "duhamel_bound": 0.08000000000000002
+        },
+        {
+          "g": 0.4,
+          "hard_horizon": 1.0,
+          "initial_bath_rank": 1,
+          "flagged_half_trace_distance": 0.13718205033799238,
+          "duhamel_bound": 0.4
+        },
+        {
+          "g": 0.4,
+          "hard_horizon": 3.0,
+          "initial_bath_rank": 1,
+          "flagged_half_trace_distance": 0.4348871040748351,
+          "duhamel_bound": 1.0
+        },
+        {
+          "g": 0.01,
+          "hard_horizon": 0.2,
+          "initial_bath_rank": 2,
+          "flagged_half_trace_distance": 0.00014386411369003162,
+          "duhamel_bound": 0.002
+        },
+        {
+          "g": 0.01,
+          "hard_horizon": 1.0,
+          "initial_bath_rank": 2,
+          "flagged_half_trace_distance": 0.0030649888090978567,
+          "duhamel_bound": 0.01
+        },
+        {
+          "g": 0.01,
+          "hard_horizon": 3.0,
+          "initial_bath_rank": 2,
+          "flagged_half_trace_distance": 0.009202043563270056,
+          "duhamel_bound": 0.03
+        },
+        {
+          "g": 0.1,
+          "hard_horizon": 0.2,
+          "initial_bath_rank": 2,
+          "flagged_half_trace_distance": 0.0014327442936809783,
+          "duhamel_bound": 0.020000000000000004
+        },
+        {
+          "g": 0.1,
+          "hard_horizon": 1.0,
+          "initial_bath_rank": 2,
+          "flagged_half_trace_distance": 0.02999440422634693,
+          "duhamel_bound": 0.1
+        },
+        {
+          "g": 0.1,
+          "hard_horizon": 3.0,
+          "initial_bath_rank": 2,
+          "flagged_half_trace_distance": 0.08880877916752772,
+          "duhamel_bound": 0.30000000000000004
+        },
+        {
+          "g": 0.4,
+          "hard_horizon": 0.2,
+          "initial_bath_rank": 2,
+          "flagged_half_trace_distance": 0.005645386132401541,
+          "duhamel_bound": 0.08000000000000002
+        },
+        {
+          "g": 0.4,
+          "hard_horizon": 1.0,
+          "initial_bath_rank": 2,
+          "flagged_half_trace_distance": 0.10836288373822839,
+          "duhamel_bound": 0.4
+        },
+        {
+          "g": 0.4,
+          "hard_horizon": 3.0,
+          "initial_bath_rank": 2,
+          "flagged_half_trace_distance": 0.34780933310857565,
+          "duhamel_bound": 1.0
+        }
+      ],
+      "scope": "One explicit adaptive two-interval instrument with sealed reference and all outcome flags retained; not optimization over testers or a finite-time memory formula."
+    },
+    "weighted_sectors": {
+      "controllable_dimensions": [
+        1,
+        2,
+        4
+      ],
+      "invisible_dimensions": [
+        2,
+        1,
+        2
+      ],
+      "actual_projector_weights": [
+        0.6000000000000003,
+        0.29999999999999993,
+        0.09999999999999999
+      ],
+      "tail_by_memory_dimension": {
+        "1": 0.3999999999999999,
+        "2": 0.09999999999999999,
+        "3": 0.09999999999999999,
+        "4": 0.0
+      },
+      "two_interval_reference_complete_reduction_error": 2.851188682174069e-16,
+      "D2_two_round_physical_bath_event": 0.09999999999999999,
+      "D2_two_round_block_compressor_event": 0.024999999999999998,
+      "scope": "Known prescribed block structure, not an algorithm inferring the decomposition; two actual controlled intervals and a finite repeated compression witness."
+    }
+  }
+}
