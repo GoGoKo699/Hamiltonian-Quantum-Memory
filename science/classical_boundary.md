@@ -79,7 +79,7 @@ The proof is a connection to the inherited indirect-control decomposition. It do
 
 ## Finite-time caution
 
-A positive value of $`\epsilon_1^\infty`$ says that an arbitrarily accurate classical explanation fails uniformly over unlimited finite experiments. It does not say that a short experiment can distinguish that explanation. If $`H_\lambda=H_0+\lambda V`$, then standard unitary telescoping bounds any tester of total idle duration $`T`$ by a discrepancy at most $`|\lambda|T\|V\|`$ when $`H_0`$ is used as a stand-in. This bound also covers adaptive interventions by contractivity and summing their branchwise elapsed durations under a hard horizon.
+A positive value of $`\epsilon_1^\infty`$ says that an arbitrarily accurate classical explanation fails uniformly over unlimited finite experiments. It does not say that a short experiment can distinguish that explanation. If $`H_\lambda=H_0+\lambda V`$, then standard unitary telescoping bounds any tester of total idle duration $`T`$ by a discrepancy at most $`|\lambda|T\lVert V\rVert`$ when $`H_0`$ is used as a stand-in. This bound also covers adaptive interventions by contractivity and summing their branchwise elapsed durations under a hard horizon.
 
 Consequently the limits of weak coupling and long observation need not commute. The [memory law](memory_law.md) preserves that distinction: its horizon statement is a limit without a universal convergence rate.
 

@@ -50,12 +50,12 @@ Prepare $`|\Phi_r\rangle_{RL}=r^{-1/2}\sum_{a=1}^r|a\rangle_R|a\rangle_L`$, with
 \Pr[\Phi_r\text{ on }RL']\le\min\{1,D/r\}.
 ```
 
-To prove this, condition on any classical branch at the cut. Every state on $`R\otimes M_D`$ has Schmidt number at most $`D`$. Local decoding and discarding systems cannot increase that Schmidt number. For a normalized pure output of Schmidt rank $`k\le D`$, write its coefficient matrix as $`Y`$, with $`\|Y\|_2=1`$. Then
+To prove this, condition on any classical branch at the cut. Every state on $`R\otimes M_D`$ has Schmidt number at most $`D`$. Local decoding and discarding systems cannot increase that Schmidt number. For a normalized pure output of Schmidt rank $`k\le D`$, write its coefficient matrix as $`Y`$, with $`\lVert Y\rVert_2=1`$. Then
 
 ```math
 |\langle\Phi_r|\psi\rangle|^2
-=\frac{|\operatorname{Tr}Y|^2}{r}
-\le\frac{\|Y\|_1^2}{r}
+=\frac{|\mathrm{Tr}Y|^2}{r}
+\le\frac{\lVert Y\rVert_1^2}{r}
 \le\frac{k}{r}\le\frac Dr.
 ```
 

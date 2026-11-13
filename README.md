@@ -10,7 +10,7 @@ Use the established stabilized control decomposition
 
 ```math
 \mathcal H_E=\bigoplus_j\mathcal H_{B_j}\otimes\mathcal H_{Q_j},
-\qquad r_j=\dim Q_j,\qquad p_j=\operatorname{Tr}(\Pi_j\tau_E).
+\qquad r_j=\dim Q_j,\qquad p_j=\mathrm{Tr}(\Pi_j\tau_E).
 ```
 
 Here j is a conserved sector, its Q factor is controllable through the laboratory port, and its B factor is invisible to future port experiments. This structure is inherited from Kato–Owari–Maruyama; the quantum/classical decomposition and general memory-cost frameworks also have established antecedents. The [related-work account](references/related_work.md) identifies them.

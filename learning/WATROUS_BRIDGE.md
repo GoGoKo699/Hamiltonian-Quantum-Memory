@@ -38,7 +38,7 @@ The book's registers and channels can represent every item in one finite experim
 For a working register $`W`$, a reset to a fixed state $`\omega_W`$ is
 
 ```math
-\mathcal R_W(X)=\operatorname{Tr}(X)\,\omega_W.
+\mathcal R_W(X)=\mathrm{Tr}(X)\,\omega_W.
 ```
 
 When applied to part of a joint state, it discards that register and prepares a replacement independent of the rest. Keeping a purification in another accessible work register would defeat this reset. The distinguishing experiment therefore erases **all** accessible quantum work systems, not just the port. The sealed reference survives, but cannot interact with any controller across the cut.
@@ -56,7 +56,7 @@ Watrous uses the unsquared, or root, fidelity convention. For this pure target t
 
 ### The distance includes a factor of one half
 
-The project's state-distance convention is $`\tfrac12\|\rho-\sigma\|_1`$. Its one-channel analogue is half the completely bounded trace norm from Section 3.3.2, commonly called the diamond norm. A process has several intervention slots, so [the model](../science/model.md#distance-and-order-of-quantifiers) optimizes distinguishability over finite causal experiments rather than replacing the whole process by one passive channel snapshot.
+The project's state-distance convention is $`\tfrac12\lVert \rho-\sigma\rVert_1`$. Its one-channel analogue is half the completely bounded trace norm from Section 3.3.2, commonly called the diamond norm. A process has several intervention slots, so [the model](../science/model.md#distance-and-order-of-quantifiers) optimizes distinguishability over finite causal experiments rather than replacing the whole process by one passive channel snapshot.
 
 The normalized Bell projector used in a test has trace one. Under the usual unnormalized Choi convention, the Choi operator of a qubit identity channel is twice that projector. This normalization changes neither the physical channel nor the test, but it matters when reading formulas.
 

@@ -29,7 +29,7 @@ Even an initially pure state in the four-level factor still requires four levels
 Let the accessible port be a qutrit and the bath one qubit. In units with the longitudinal coupling equal to one, set
 
 ```math
-C=\operatorname{diag}(-1,0,1),\qquad
+C=\mathrm{diag}(-1,0,1),\qquad
 H_g=C\otimes Z+g I_3\otimes X,
 ```
 

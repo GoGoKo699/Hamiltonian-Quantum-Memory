@@ -34,13 +34,15 @@ The reference is now sealed. It has no interaction with the port, the bath or a 
 Write $`\Phi_{RS}=|\Phi_2\rangle\langle\Phi_2|_{RS}`$. The three relevant stages are
 
 ```math
-\Phi_{RS}\otimes\tau_E
-\ \xrightarrow{\text{write SWAP}}\
-\Phi_{RE}\otimes\tau_S
-\ \xrightarrow{\text{reset }S}\
-\Phi_{RE}\otimes|0\rangle\langle0|_S
-\ \xrightarrow{\text{read SWAP}}\
-\Phi_{RS}\otimes|0\rangle\langle0|_E.
+\begin{aligned}
+&\Phi_{RS}\otimes\tau_E\\
+&\quad\overset{\text{write SWAP}}{\rightarrow}
+ \Phi_{RE}\otimes\tau_S\\
+&\quad\overset{\text{reset }S}{\rightarrow}
+ \Phi_{RE}\otimes|0\rangle\langle0|_S\\
+&\quad\overset{\text{read SWAP}}{\rightarrow}
+ \Phi_{RS}\otimes|0\rangle\langle0|_E.
+\end{aligned}
 ```
 
 Each SWAP takes idle duration $`t_*`$. The middle intervention discards the port and prepares it in $`|0\rangle`$. Any additional accessible working or controller qubits would be discarded too. In this simple device none are needed. The reference is the only surviving laboratory quantum system, and its seal prevents a bypass.
